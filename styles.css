@@ -5,8 +5,7 @@ body {
 }
 
 h1  {
-  color: red;
-  text-align: center;
+
   font-family: 'Source Sans Pro', sans-serif;
 
 }
@@ -63,4 +62,22 @@ padding-right: 30px;
   width: 500px;
   margin-bottom: 5px;
   height: 25px;
+}
+
+.video-container {
+  text-align: left;
+}
+.video {
+margin-right: 47%;
+margin-top: 1.5%;
+
+}
+object {
+  width: 800px;
+  height: 450px;
+  margin-bottom: 0px;
+}
+.video-title {
+  text-align: left;
+  margin-top: 0px;
 }
