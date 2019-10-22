@@ -2,6 +2,12 @@ body {
   background-color: #efe9cc;
   margin: 0px;
 }
+main {
+  width: 900px;
+}
+.side-bar{
+  text-align: right;
+}
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -75,10 +81,18 @@ object {
   height: 450px;
   margin-bottom: 0px;
 }
-
+.chanel-container {
+  text-align: left;
+  margin-right: 0%;
+}
+.video-description {
+  margin-top: 0px;
+  width: 300px;
+}
 .video-title {
   text-align: left;
   margin-top: 0px;
+
 }
 
 .views-text {
@@ -90,6 +104,8 @@ object {
 
 .subscribe-button {
   background-color: red;
+ text-align: right;
+ margin-left:  335px;
 
 }
 
