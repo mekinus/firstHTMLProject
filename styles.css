@@ -2,19 +2,22 @@ body {
   background-color: #efe9cc;
   margin: 0px;
 }
+
 main {
   width: 900px;
 }
-.side-bar{
+
+.side-bar {
   text-align: right;
 }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #a34a28;
+  font-weight: 400;
 }
 
-hr
-{
+hr {
   color: #efe9cc;
   height: 2px;
 }
@@ -23,13 +26,12 @@ hr
 .head {
   background-color: #deb881;
   width: 100%;
-
   text-align: center;
 }
 
 .header-logo {
-  height: 64px;
-  width: 256px;
+  height: 128px;
+  width: 128px;
   padding-left: 10px;
   padding-top: 10px;
   margin-right: 50px;
@@ -43,6 +45,27 @@ hr
 .icons-container {
   display: flex;
   margin-left: 75%;
+}
+
+.right-side {
+  background-color: #f6cd90;
+  float: left;
+  width: 33%;
+  height: 999px;
+  padding-right: 0px;
+}
+
+.thumbnail-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #a34a28;
+  font-size: 1.4rem;
+}
+
+.thumbnail-text {
+  color: #211717;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
 }
 
 .avatar-icon {
@@ -62,6 +85,7 @@ hr
 
 .video-container {
   text-align: left;
+  float: left;
 }
 
 .view-container {
@@ -81,18 +105,20 @@ object {
   height: 450px;
   margin-bottom: 0px;
 }
+
 .chanel-container {
   text-align: left;
   margin-right: 0%;
 }
+
 .video-description {
   margin-top: 0px;
   width: 300px;
 }
+
 .video-title {
   text-align: left;
   margin-top: 0px;
-
 }
 
 .views-text {
@@ -100,31 +126,45 @@ object {
   margin-top: 0px;
   padding-top: 0px;
   font-family: 'Source Sans Pro', sans-serif;
+  color: #a34a28;
 }
 
 .subscribe-button {
-  background-color: red;
- text-align: right;
- margin-left:  335px;
+  background-color: #f58b54;
+  text-align: right;
+  margin-left: 335px;
+}
 
+.view-button {
+  background-color: #dfddc7;
+  margin-right: 5px;
 }
 
 .subscribe-text {
   margin-left: 0;
-margin-bottom: 2px;
-margin-top: 0;
-color: #efe9cc;
-text-align: center;
+  margin-bottom: 2px;
+  margin-top: 0;
+  color: #efe9cc;
+  text-align: center;
 }
 
 .subscribe-logo {
   height: 32px;
   margin-right: 5px;
   display:
-  margin-bottom: 0px;
+    margin-bottom: 0px;
   padding: 0 0 0 0;
 }
 
 .subscribe-container {
   text-align: left;
+}
+
+.thumbnail {
+  height: 200px;
+  width: 300px;
+  margin-left: 0px;
+  margin-right: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
