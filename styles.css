@@ -1,32 +1,27 @@
-
 body {
   background-color: #efe9cc;
   margin: 0px;
 }
 
-h1  {
-
+h1 {
   font-family: 'Source Sans Pro', sans-serif;
-
 }
 
-section
+hr
 {
-
+  color: #efe9cc;
+  height: 2px;
 }
 
 /* Class Elements */
-
 .head {
-
   background-color: #deb881;
   width: 100%;
-  height: 120px;
+
   text-align: center;
 }
 
-.header-logo
-{
+.header-logo {
   height: 64px;
   width: 256px;
   padding-left: 10px;
@@ -40,44 +35,80 @@ section
 }
 
 .icons-container {
-
-display: flex;
-margin-left: 75%;
+  display: flex;
+  margin-left: 75%;
 }
 
-
-
-
-.avatar-icon
-{
+.avatar-icon {
   height: 32px;
   text-align: right;
   margin-left: 100%;
-float: left;
-padding-right: 30px;
+  float: left;
+  padding-right: 30px;
 }
 
-.search-field
-{
+.search-field {
   width: 500px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   height: 25px;
+  position: inherit;
 }
 
 .video-container {
   text-align: left;
 }
-.video {
-margin-right: 47%;
-margin-top: 1.5%;
 
+.view-container {
+  background-color: #f6cd90;
+  height: 256px;
+  width: 900px;
+  margin-top: 0px;
 }
+
+.video {
+  margin-right: 47%;
+  margin-top: 0%;
+}
+
 object {
-  width: 800px;
+  width: 900px;
   height: 450px;
   margin-bottom: 0px;
 }
+
 .video-title {
   text-align: left;
   margin-top: 0px;
+}
+
+.views-text {
+  text-align: right;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subscribe-button {
+  background-color: red;
+
+}
+
+.subscribe-text {
+  margin-left: 0;
+margin-bottom: 2px;
+margin-top: 0;
+color: #efe9cc;
+text-align: center;
+}
+
+.subscribe-logo {
+  height: 32px;
+  margin-right: 5px;
+  display:
+  margin-bottom: 0px;
+  padding: 0 0 0 0;
+}
+
+.subscribe-container {
+  text-align: left;
 }
