@@ -107,15 +107,17 @@ hr {
 
 .thumbnail-title {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #c10000;
+  color: black;
   font-size: 1.0rem;
   line-height: normal;
   letter-spacing: normal;
+  margin-top: 0px;
 }
 
 .thumbnail-text {
-  color: #211717;
-  font-size: 1rem;
+  line-height: normal;
+  color: black;
+  font-size: 0.8rem;
   font-family: 'Source Sans Pro', sans-serif;
   flex: 1;
 }
@@ -131,6 +133,7 @@ hr {
 .video-container {
   text-align: left;
   float: left;
+  border-color: #eeeeee;
 }
 
 .view-container {
@@ -141,18 +144,20 @@ hr {
   display: flex;
   border-style: solid;
   border-width: 1px;
-  border-color: gray;
+  border-color: #eeeeee;
 }
 .video-icons{
   text-align: right;
-  margin-left: 250px;
-  margin-top: 20px;;
+  margin-left: 185px;
+  margin-top: 20px;
 }
 .video-title {
   text-align: left;
   margin-top: 0px;
   width: 500px;
   height: 150px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
 }
 .description-container{
   background-color: #dedede;
@@ -162,21 +167,17 @@ hr {
   display: flex;
   border-style: solid;
   border-width: 1px;
-  border-color: gray;
+  border-color: #eeeeee;
 }
 .user-chanel{
 flex: 1;
 margin-top: 18px;;
 
 }
-.subcriber{
-  flex: 18;
+.subscriber{
+  flex: 10;
 }
-.subcribe-button{
-  width: 10px;
-  height: 100px;
-  margin-left: 0px;
-}
+
 .video {
   margin-right: 47%;
   margin-top: 0%;
@@ -197,7 +198,7 @@ object {
   margin-top: 0px;
   width: 300px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #211717;
+  color: black;
   margin-left: 5px;
   float: left;
 }
@@ -209,13 +210,18 @@ object {
   margin-top: 0px;
   padding-top: 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #c10000;
+  color: black;
+  font-size: 0.8rem;
 }
 
 .subscribe-button {
-  background-color: #ff4949;
+  background-color: #c10000;
   text-align: right;
   margin-left: 335px;
+  color: white;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .view-button {
@@ -224,7 +230,7 @@ object {
 }
 
 .subscribe-text {
-  color: #efe9cc;
+  color: #eeeeee;
   text-align: center;
 }
 
@@ -238,6 +244,14 @@ object {
 
 .subscribe-container {
   text-align: left;
+}
+
+.channel-title {
+  color: #c10000;
+}
+
+.desc-icon {
+margin-left: 20px;
 }
 
 .view-buttons {
@@ -261,4 +275,8 @@ object {
   width: 256px;
   height: 128px;
   margin-right: 5px;
+}
+
+.side-video-text {
+  margin-bottom: 0;
 }
