@@ -33,12 +33,14 @@ hr {
   border-color: #eeeeee;
   border-width: thin;
 }
-.menu-bar{
+
+.menu-bar {
   flex: 0.4;
   margin-top: 26px;
   margin-left: 10px;
   margin-right: 0px;
 }
+
 .header-logo {
   height: 90px;
   width: 120px;
@@ -53,20 +55,23 @@ hr {
   text-align: left;
   display: flex;
 }
-.search-container{
+
+.search-container {
   display: flex;
   text-align: center;
-  
 }
+
 .search-button {
   margin-top: 27px;
   height: 25px;
 }
+
 .search-field {
- height: 19px;
- width: 500px;
- margin-top: 27px;
+  height: 19px;
+  width: 500px;
+  margin-top: 27px;
 }
+
 .icons-container {
   display: flex;
   margin-left: 33%;
@@ -76,21 +81,22 @@ hr {
   padding-bottom: 100px;
   padding-top: 0px;
 }
-.bell-icon{
+
+.bell-icon {
   margin-left: 22px;
   margin-top: 30px;
-  
 }
-.user-icon{
+
+.user-icon {
   margin-left: 22px;
   margin-top: 30px;
-  
 }
-.sign-icon{
+
+.sign-icon {
   margin-left: 22px;
   margin-top: 30px;
-  
 }
+
 .right-side {
   background-color: #dedede;
   float: left;
@@ -102,14 +108,16 @@ hr {
 .thumbnail-title {
   font-family: 'Source Sans Pro', sans-serif;
   color: #c10000;
-  font-size: 1.4rem;
+  font-size: 1.0rem;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .thumbnail-text {
   color: #211717;
   font-size: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  flex: 1;
 }
 
 .avatar-icon {
@@ -209,4 +217,14 @@ object {
   margin-right: 70px;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.side-video-container {
+  display: flex;
+}
+
+.side-video {
+  width: 256px;
+  height: 128px;
+  margin-right: 5px;
 }
