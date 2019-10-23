@@ -1,5 +1,5 @@
 body {
-  background-color: #efe9cc;
+  background-color: #eeeeee;
   margin: 0px;
 }
 
@@ -10,8 +10,15 @@ main {
 .search {
   height: 20px;
   width: 20px;
-  margin-left: 5px;
-  margin-top: 40px;
+}
+
+.search-button {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  height: 20px;
+  width: 60px;
+  flex: 1;
 }
 
 li {
@@ -31,18 +38,23 @@ hr {
 
 /* Class Elements */
 .head {
-  background-color: #deb881;
+  background-color: #eeeeee;
   width: 100%;
   height: 100px;
   text-align: center;
+  display: flex;
+  border-style: groove;
+  border-color: #eeeeee;
+  border-width: thin;
 }
 
 .header-logo {
   height: 90px;
-  width: 100px;
+  width: 120px;
   padding-left: 10px;
   padding-top: 10px;
   margin-right: 50px;
+  flex: 1;
 }
 
 .logo-container {
@@ -57,16 +69,16 @@ hr {
 }
 
 .right-side {
-  background-color: #f6cd90;
+  background-color: #dedede;
   float: left;
   width: 33%;
-  height: 1100px;
+  height: 1500px;
   padding-right: 0px;
 }
 
 .thumbnail-title {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #a34a28;
+  color: #c10000;
   font-size: 1.4rem;
 }
 
@@ -88,11 +100,14 @@ hr {
 .search-field {
   width: 500px;
   margin-bottom: 10px;
-  height: 25px;
+  height: 15px;
   position: relative;
-  margin-left: 100px;
+  margin-left: 35%;
   margin-right: 0px;
-  margin-top: 35px;
+  margin-top: 30px;
+  padding-left: 0;
+  flex: 1;
+  float: left;
 }
 
 .video-container {
@@ -101,7 +116,7 @@ hr {
 }
 
 .view-container {
-  background-color: #f6cd90;
+  background-color: #dedede;
   height: 630px;
   width: 900px;
   margin-top: 0px;
@@ -118,7 +133,7 @@ object {
   margin-bottom: 0px;
 }
 
-.chanel-container {
+.channel-container {
   text-align: left;
   margin-right: 0%;
 }
@@ -142,11 +157,11 @@ object {
   margin-top: 0px;
   padding-top: 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #a34a28;
+  color: #c10000;
 }
 
 .subscribe-button {
-  background-color: #f58b54;
+  background-color: #ff4949;
   text-align: right;
   margin-left: 335px;
 }
@@ -157,9 +172,6 @@ object {
 }
 
 .subscribe-text {
-  margin-left: 0;
-  margin-bottom: 2px;
-  margin-top: 0;
   color: #efe9cc;
   text-align: center;
 }
