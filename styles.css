@@ -135,11 +135,48 @@ hr {
 
 .view-container {
   background-color: #dedede;
-  height: 630px;
+  height: 100px;
   width: 900px;
   margin-top: 0px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
 }
+.video-icons{
+  text-align: right;
+  margin-left: 250px;
+  margin-top: 20px;;
+}
+.video-title {
+  text-align: left;
+  margin-top: 0px;
+  width: 500px;
+  height: 150px;
+}
+.description-container{
+  background-color: #dedede;
+  height: 400px;
+  width: 900px;
+  margin-top: 0px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+.user-chanel{
+flex: 1;
+margin-top: 18px;;
 
+}
+.subcriber{
+  flex: 18;
+}
+.subcribe-button{
+  width: 10px;
+  height: 100px;
+  margin-left: 0px;
+}
 .video {
   margin-right: 47%;
   margin-top: 0%;
@@ -165,10 +202,7 @@ object {
   float: left;
 }
 
-.video-title {
-  text-align: left;
-  margin-top: 0px;
-}
+
 
 .views-text {
   text-align: right;
