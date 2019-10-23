@@ -22,7 +22,12 @@ hr {
   height: 2px;
 }
 
-/* Class Elements */
+object {
+  width: 900px;
+  height: 450px;
+  margin-bottom: 0px;
+}
+
 .head {
   background-color: white;
   width: 100%;
@@ -146,11 +151,13 @@ hr {
   border-width: 1px;
   border-color: #eeeeee;
 }
-.video-icons{
+
+.video-icons {
   text-align: right;
   margin-left: 185px;
   margin-top: 20px;
 }
+
 .video-title {
   text-align: left;
   margin-top: 0px;
@@ -159,7 +166,8 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
 }
-.description-container{
+
+.description-container {
   background-color: #dedede;
   height: 400px;
   width: 900px;
@@ -169,24 +177,20 @@ hr {
   border-width: 1px;
   border-color: #eeeeee;
 }
-.user-chanel{
-flex: 1;
-margin-top: 18px;;
 
+.user-chanel {
+  flex: 1;
+  margin-top: 18px;
+  ;
 }
-.subscriber{
+
+.subscriber {
   flex: 10;
 }
 
 .video {
   margin-right: 47%;
   margin-top: 0%;
-}
-
-object {
-  width: 900px;
-  height: 450px;
-  margin-bottom: 0px;
 }
 
 .channel-container {
@@ -202,8 +206,6 @@ object {
   margin-left: 5px;
   float: left;
 }
-
-
 
 .views-text {
   text-align: right;
@@ -222,7 +224,6 @@ object {
   height: 30px;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 10px;
-
 }
 
 .view-button {
@@ -252,7 +253,7 @@ object {
 }
 
 .desc-icon {
-margin-left: 20px;
+  margin-left: 20px;
 }
 
 .view-buttons {
