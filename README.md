@@ -1,8 +1,15 @@
-# firstHTMLProject 
+# Project - Embedding Images and Video
 
-Me and my partner TashfeenRAO are build our first basic html structure project for Microverse !
+## HTML-CSS Module
 
-Tashfeen is learning more about github and repositories !
+*This project is part of the HTML and CSS module of Microverse technical curriculum, the objective of this web-page is to
+copy some main specs of the youtube home page with another style to it, we used pastel colors and achieved the result only with basic
+HTML and CSS.*
+
+_Authors :_
+
+**Leonardo Couto a.k.a Mekinus**
+
+**Tashfeen a.k.a Tash**
 
 
- From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
