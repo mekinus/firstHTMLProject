@@ -6,23 +6,29 @@
   <title>First HTML Project</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
   <nav class="head">
     <div class="logo-container">
-      <img src="images/yt_logo_mono_light.png" alt="youtube-logo" class="header-logo">
+      <i class="fa fa-reorder menu-bar" style="font-size:24px"></i>
+      <i class="fa fa-youtube-play header-logo" style="font-size:48px;color:red"></i>
+    </div>
 
-      <input type="text" name="search" value="" class="search-field"><span> <button type="button" name="button" class="search-button">Search</button></span>
+    <div class="search-container">
+      <input type="text" name="search" value="" class="search-field">
+        <span> 
+      <button type="button" name="button" class="search-button">Search</button>
+      </span>
+    </div>
 
-
-
-      <div class="icons-container">
-        <a href="#"><img class="avatar-icon" src="images/avatar.png" alt="avatar-image"></a>
-        <a href="#"><img class="avatar-icon" src="images/download.png" alt="avatar-image"></a>
-        <a href="#"><img class="avatar-icon" src="images/settings.png" alt="avatar-image"></a>
-      </div>
+    <div class="icons-container">
+        <i class="fa fa-bell bell-icon" style="font-size:24px"></i>
+        <i class="fa fa-sign-in sign-icon" style="font-size:24px"></i>
+        <i class="fa fa-user user-icon" style="font-size:24px"></i>
+    </div>
 
     </div>
   </nav>
