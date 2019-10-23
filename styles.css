@@ -101,7 +101,7 @@ hr {
   background-color: #dedede;
   float: left;
   width: 33%;
-  height: 1500px;
+  height: 960px;
   padding-right: 0px;
 }
 
@@ -217,10 +217,11 @@ object {
 .subscribe-button {
   background-color: #c10000;
   text-align: right;
-  margin-left: 335px;
+  margin-left: 320px;
   color: white;
   height: 30px;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
 
 }
 
