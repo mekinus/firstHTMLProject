@@ -1,6 +1,7 @@
 body {
   background-color: #eeeeee;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 main {
@@ -35,7 +36,7 @@ object {
   text-align: center;
   display: flex;
   border-style: groove;
-  border-color: #eeeeee;
+  border-color: #f1f1f1;
   border-width: thin;
 }
 
@@ -96,7 +97,7 @@ object {
 }
 
 .right-side {
-  background-color: #dedede;
+  background-color: #f1f1f1;
   float: left;
   width: 33%;
   height: 960px;
@@ -105,7 +106,7 @@ object {
 
 .thumbnail-title {
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  color: #282828;
   font-size: 1.0rem;
   line-height: normal;
   letter-spacing: normal;
@@ -114,7 +115,7 @@ object {
 
 .thumbnail-text {
   line-height: normal;
-  color: black;
+  color: #282828;
   font-size: 0.8rem;
   font-family: 'Source Sans Pro', sans-serif;
   flex: 1;
@@ -131,11 +132,11 @@ object {
 .video-container {
   text-align: left;
   float: left;
-  border-color: #eeeeee;
+  border-color: #f1f1f1;
 }
 
 .view-container {
-  background-color: #dedede;
+  background-color: #f1f1f1;
   height: 100px;
   width: 900px;
   margin-top: 0px;
@@ -161,11 +162,11 @@ object {
   width: 500px;
   height: 150px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  color: #282828;
 }
 
 .description-container {
-  background-color: #dedede;
+  background-color: #f1f1f1;
   height: 400px;
   width: 900px;
   margin-top: 0px;
@@ -199,7 +200,7 @@ object {
   margin-top: 0px;
   width: 300px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  color: #282828;
   margin-left: 5px;
   float: left;
 }
@@ -209,12 +210,12 @@ object {
   margin-top: 0px;
   padding-top: 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  color: #282828;
   font-size: 0.8rem;
 }
 
 .subscribe-button {
-  background-color: #c10000;
+  background-color: red;
   text-align: right;
   margin-left: 320px;
   color: white;
@@ -246,7 +247,7 @@ object {
 }
 
 .channel-title {
-  color: #c10000;
+  color: red;
 }
 
 .desc-icon {
