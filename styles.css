@@ -1,37 +1,62 @@
-
 body {
-  background-color: #efe9cc;
+  background-color: #eeeeee;
   margin: 0px;
+  overflow-x: hidden;
 }
 
-h1  {
+main {
+  width: 900px;
+}
 
+li {
+  list-style-type: none;
+}
+
+h1 {
   font-family: 'Source Sans Pro', sans-serif;
-
+  color: #a34a28;
+  font-weight: 400;
 }
 
-section
-{
-
+hr {
+  color: #efe9cc;
+  height: 2px;
 }
 
-/* Class Elements */
+object {
+  width: 810px;
+  height: 450px;
+  margin-bottom: 0px;
+}
 
 .head {
-
-  background-color: #deb881;
+  background-color: white;
   width: 100%;
-  height: 120px;
+  height: 75px;
   text-align: center;
+  display: flex;
+  border-style: groove;
+  border-color: #f1f1f1;
+  border-width: thin;
 }
 
-.header-logo
-{
+.menu-bar {
+  flex: 0.4;
+  margin-top: 26px;
+  margin-left: 10px;
+  margin-right: 0px;
+  font-size: 24px;
+}
+
+.header-logo {
   height: 64px;
-  width: 256px;
-  padding-left: 10px;
-  padding-top: 10px;
+  width: 120px;
+  padding-left: 0px;
+  padding-top: 0px;
   margin-right: 50px;
+  margin-left: 0px;
+  flex: 1;
+  color: red;
 }
 
 .logo-container {
@@ -39,45 +64,237 @@ section
   display: flex;
 }
 
-.icons-container {
-
-display: flex;
-margin-left: 75%;
+.search-container {
+  display: flex;
+  text-align: center;
 }
 
+.search-button {
+  margin-top: 27px;
+  height: 25px;
+}
 
+.search-field {
+  height: 19px;
+  width: 500px;
+  margin-top: 27px;
+}
 
+.icons-container {
+  display: flex;
+  margin-left: 33%;
+  margin-top: 0px;
+  text-align: right;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  padding-top: 0px;
+}
 
-.avatar-icon
-{
+.small-icon {
+  font-size: 40px;
+  margin-left: 22px;
+  margin-top: 30px;
+}
+
+.right-side {
+  background-color: #f1f1f1;
+  float: left;
+  width: 33%;
+  height: 960px;
+  padding-right: 0px;
+}
+
+.thumbnail-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #282828;
+  font-size: 1.0rem;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-top: 0px;
+}
+
+.thumbnail-text {
+  line-height: normal;
+  color: #282828;
+  font-size: 0.8rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  flex: 1;
+}
+
+.avatar-icon {
   height: 32px;
   text-align: right;
   margin-left: 100%;
-float: left;
-padding-right: 30px;
-}
-
-.search-field
-{
-  width: 500px;
-  margin-bottom: 5px;
-  height: 25px;
+  float: left;
+  padding-right: 30px;
 }
 
 .video-container {
   text-align: left;
+  float: left;
+  border-color: #f1f1f1;
 }
-.video {
-margin-right: 47%;
-margin-top: 1.5%;
 
+.view-container {
+  background-color: #f1f1f1;
+  height: 100px;
+  width: 900px;
+  margin-top: 0px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eeeeee;
 }
-object {
-  width: 800px;
-  height: 450px;
-  margin-bottom: 0px;
+
+.small {
+  font-size: 30px;
+  color: #282828;
+  height: 20px;
 }
+
+.video-icons {
+  text-align: right;
+  margin-left: 145px;
+  margin-top: 20px;
+}
+
 .video-title {
   text-align: left;
   margin-top: 0px;
+  width: 500px;
+  height: 150px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #282828;
+  margin-left: 100px;
+}
+
+.description-container {
+  background-color: #f1f1f1;
+  height: 400px;
+  width: 900px;
+  margin-top: 0px;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eeeeee;
+}
+
+.user-channel {
+  flex: 1;
+  margin-top: 18px;
+  margin-left: 60px;
+  margin-right: 0;
+}
+
+.subscriber {
+  flex: 10;
+  margin-left: 100px;
+}
+
+.video {
+  margin-top: 0%;
+  margin-left: 10%;
+}
+
+.main-video-description {
+  color: #282828;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.channel-container {
+  text-align: left;
+  margin-right: 0%;
+}
+
+.video-description {
+  margin-top: 0px;
+  width: 300px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #282828;
+  margin-left: 5px;
+  float: left;
+}
+
+.views-text {
+  text-align: right;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #282828;
+  font-size: 0.8rem;
+}
+
+.subscribe-button {
+  background-color: red;
+  text-align: right;
+  margin-left: 320px;
+  color: white;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
+}
+
+.view-button {
+  background-color: #dfddc7;
+  margin-right: 5px;
+}
+
+.subscribe-text {
+  color: #eeeeee;
+  text-align: center;
+}
+
+.subscribe-logo {
+  height: 32px;
+  margin-right: 5px;
+  display:
+    margin-bottom: 0px;
+  padding: 0 0 0 0;
+}
+
+.subscribe-container {
+  text-align: left;
+}
+
+.subscribers-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #282828;
+}
+
+.channel-title {
+  color: red;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.desc-icon {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.view-buttons {
+  margin-bottom: 50px;
+}
+
+.thumbnail {
+  height: 200px;
+  width: 300px;
+  margin-left: 0px;
+  margin-right: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.side-video-container {
+  display: flex;
+}
+
+.side-video {
+  width: 256px;
+  height: 128px;
+  margin-right: 5px;
+}
+
+.side-video-text {
+  margin-bottom: 0;
 }

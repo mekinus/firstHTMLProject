@@ -1,46 +1,139 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>First HTML Project</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-<section>
+<head>
+  <meta charset="utf-8">
+  <title>First HTML Project</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
   <nav class="head">
     <div class="logo-container">
-       <img src="images/yt_logo_mono_light.png" alt="youtube-logo" class="header-logo">
+      <i class="fa fa-reorder menu-bar"></i>
+      <img class="header-logo" src="images/yt_logo_mono_light.png" alt="">
     </div>
-
-<div class="icons-container">
-  <a href="#"><img class="avatar-icon" src="images/avatar.png" alt="avatar-image"></a>
-  <a href="#"><img class="avatar-icon" src="images/download.png" alt="avatar-image"></a>
-  <a href="#"><img class="avatar-icon" src="images/settings.png" alt="avatar-image"></a>
-</div>
-
-   <input type="text" name="search" value="" class="search-field">
-   <button type="button" name="search">Search</button>
+    <div class="search-container">
+      <input type="text" name="search" value="" class="search-field">
+      <span>
+        <button type="button" name="button" class="search-button">Search</button>
+      </span>
+    </div>
+    <div class="icons-container">
+      <i class="fa fa-bell small-icon"></i>
+      <i class="fa fa-sign-in small-icon"></i>
+      <i class="fa fa-user small-icon"></i>
+    </div>
   </nav>
-</section>
-<main>
-  <div class="video-container">
-    <div class="video">
-      <object data="https://www.youtube.com/embed/ZnuwB35GYMY">
-      
-      </object>
+  <main>
+    <div class="video-container">
+      <div class="video">
+        <object data="https://www.youtube.com/embed/ZnuwB35GYMY">
+        </object>
+      </div>
+      <div class="view-container">
+
+        <div class="video-title">
+          <h2>How To Embed A YouTube Video</h2>
+          <h5>51,553 views•oct 23, 2019</h5>
+        </div>
+
+        <div class="video-icons">
+          <i class="fa fa-thumbs-up desc-icon"></i>
+          <i class="fa fa-thumbs-down desc-icon"></i>
+          <i class="fa fa-share desc-icon"></i>
+          <i class="fa fa-list desc-icon"></i>
+        </div>
+
+      </div>
+
+      <div class="description-container">
+
+
+
+        <div class="subscriber">
+          <h3 class="channel-title">The Odin Project - <span>
+
+              <img src="images/boy.png" class="small" alt="">
+            </span></h3>
+          <h5 class="subscribers-text">990 Subscribers</h5>
+          <p class="main-video-description">This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
+        </div>
+
+
+
+        <div>
+          <button class="subscribe-button">SUBSCRIBE</button>
+        </div>
+
+      </div>
     </div>
-    <div class="video-title">
-      <h1>How To Embed A YouTube Video</h1>
-    </div>
+  </main>
+  <div class="right-side">
+    <ul>
+      <li>
+        <div class="side-video-container">
+          <iframe class="side-video" src="https://www.youtube.com/embed/8Qn_spdM5Zg" allowfullscreen></iframe>
+          <div class="side-video-text">
+            <h6 class="thumbnail-title">STAR WARS: TRAILER<br><span class="views-text">Views 893.933</span></h6>
+          </div>
+        </div>
+      </li>
+      <li>
+
+        <div class="side-video-container">
+          <iframe class="side-video" src="https://www.youtube.com/embed/DTcJmIbn5nw" allowfullscreen></iframe>
+          <div class="side-video-text">
+            <h6 class="thumbnail-title">TED TALKS<br><span class="views-text">Views 893.933</span> </h6>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="side-video-container">
+          <iframe class="side-video" src="https://www.youtube.com/embed/zAGVQLHvwOY" allowfullscreen></iframe>
+          <div class="side-video-text">
+            <h6 class="thumbnail-title">JOKER TRAILER<br><span class="views-text">Views 654.100</span></h6>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="side-video-container">
+          <iframe class="side-video" src="https://www.youtube.com/embed/GokKUqLcvD8" allowfullscreen></iframe>
+          <div class="side-video-text">
+            <h6 class="thumbnail-title">DARK KNIGHT<br><span class="views-text">Views 566.899</span> </h6>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="side-video-container">
+          <iframe class="side-video" src="https://www.youtube.com/embed/YXY1Gichwws" allowfullscreen></iframe>
+          <div class="side-video-text">
+            <h6 class="thumbnail-title">Strings | Najanay Kyun<br><span class="views-text">Views 100.001</span> </h6>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="side-video-container">
+          <iframe class="side-video" src="https://www.youtube.com/embed/484P_yX1fyI" allowfullscreen></iframe>
+          <div class="side-video-text">
+            <h6 class="thumbnail-title">JUNOON // SAEEN<br><span class="views-text">Views 732.933</span> </h6>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="side-video-container">
+          <iframe class="side-video" src="https://www.youtube.com/embed/niUTAxvVHY" allowfullscreen></iframe>
+          <div class="side-video-text">
+            <h6 class="thumbnail-title">Rand - <br><span class="views-text">Views 872.329</span> </h6>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
-</main>
 
 
-<footer>
-<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div> -->
-</footer>
+</body>
 
-  </body>
 </html>
