@@ -148,11 +148,13 @@ object {
 
 .small {
   font-size: 30px;
+  color: #282828;
+  height: 20px;
 }
 
 .video-icons {
   text-align: right;
-  margin-left: 185px;
+  margin-left: 145px;
   margin-top: 20px;
 }
 
@@ -163,6 +165,7 @@ object {
   height: 150px;
   font-family: 'Source Sans Pro', sans-serif;
   color: #282828;
+  margin-left: 100px;
 }
 
 .description-container {
@@ -176,19 +179,27 @@ object {
   border-color: #eeeeee;
 }
 
-.user-chanel {
+.user-channel {
   flex: 1;
   margin-top: 18px;
-  ;
+  margin-left: 60px;
+  margin-right: 0;
 }
 
 .subscriber {
   flex: 10;
+  margin-left: 100px;
 }
 
 .video {
   margin-top: 0%;
   margin-left: 10%;
+}
+
+.main-video-description {
+  color: #282828;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
 }
 
 .channel-container {
@@ -246,8 +257,14 @@ object {
   text-align: left;
 }
 
+.subscribers-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #282828;
+}
+
 .channel-title {
   color: red;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .desc-icon {
