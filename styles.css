@@ -23,7 +23,7 @@ hr {
 }
 
 object {
-  width: 900px;
+  width: 810px;
   height: 450px;
   margin-bottom: 0px;
 }
@@ -44,16 +44,18 @@ object {
   margin-top: 26px;
   margin-left: 10px;
   margin-right: 0px;
+  font-size: 24px;
 }
 
 .header-logo {
-  height: 90px;
+  height: 64px;
   width: 120px;
   padding-left: 0px;
-  padding-top: 15px;
+  padding-top: 0px;
   margin-right: 50px;
   margin-left: 0px;
   flex: 1;
+  color: red;
 }
 
 .logo-container {
@@ -87,17 +89,8 @@ object {
   padding-top: 0px;
 }
 
-.bell-icon {
-  margin-left: 22px;
-  margin-top: 30px;
-}
-
-.user-icon {
-  margin-left: 22px;
-  margin-top: 30px;
-}
-
-.sign-icon {
+.small-icon {
+  font-size: 40px;
   margin-left: 22px;
   margin-top: 30px;
 }
@@ -152,6 +145,10 @@ object {
   border-color: #eeeeee;
 }
 
+.small {
+  font-size: 30px;
+}
+
 .video-icons {
   text-align: right;
   margin-left: 185px;
@@ -189,8 +186,8 @@ object {
 }
 
 .video {
-  margin-right: 47%;
   margin-top: 0%;
+  margin-left: 10%;
 }
 
 .channel-container {
@@ -254,6 +251,7 @@ object {
 
 .desc-icon {
   margin-left: 20px;
+  font-size: 30px;
 }
 
 .view-buttons {
