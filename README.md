@@ -24,9 +24,7 @@ npm install
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-*This project is part of the HTML and CSS module of Microverse technical curriculum, the objective of this web-page is to
-copy some main specs of the youtube home page with another style to it, we used pastel colors and achieved the result only with basic
-HTML and CSS.*
+It's just a static website displaying our version for the youtube home page.
 
 <!-- ROADMAP -->
 ## Roadmap
